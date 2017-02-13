@@ -1,4 +1,5 @@
-QT += opengl
+#QT += opengl
+QT += gui
 
 QMAKE_CXXFLAGS += -std=c++11
 

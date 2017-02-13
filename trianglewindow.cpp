@@ -20,10 +20,6 @@ TriangleWindow::~TriangleWindow()
 
 void TriangleWindow::initialize()
 {
-    GLuint VertexArrayID;
-    glGenVertexArrays(1, &VertexArrayID);
-    glBindVertexArray(VertexArrayID);
-
     // Generate 1 buffer, put the resulting identifier in vertexbuffer
     glGenBuffers(1, &vertexbuffer);
     // The following commands will talk about our 'vertexbuffer' buffer
